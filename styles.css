@@ -1,0 +1,178 @@
+body{
+    
+   background-color: 023047;
+  /* background-image: url("Tehran5.jpg");
+   background-size: cover; */
+   text-align: center;
+
+   
+}
+#algerian{
+    font-family: algerian;
+    color:white;
+    font-weight: 250px;
+    font-size: 40px;
+    
+    
+}
+
+
+ #back{
+     /* background-image: url("Tehran2.jpg");
+    background-color: 023047; 
+    padding:200px 60px 50px 60px;
+    margin:0px 0px 0 0px; */ 
+    
+    
+} 
+#hero{
+    background:url("images/Tehran.jpg");
+    height:5px;
+    width: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:300px 0 0 300px;
+    
+    
+    
+    
+    }
+ /* #hero:hover{
+    background-image: url("images/night.gif");
+    }  */
+#second-back{
+    background:url("images/tehran5.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: 023047;
+    margin:30px;
+    padding:60px 60px 50px 60px;
+    
+}
+.visit-img{
+    margin:25px;
+    width:290;
+    height:230;
+    border-radius: 10%;
+    
+}
+.visit-img:hover{
+    transform:scale(1.2);
+}
+.visits{
+    width:350px;
+    height:500px;
+    background-color: antiquewhite;
+    text-align: center;
+    border:100px bold black;
+    border-radius: 10%;
+    
+   
+}
+#head{
+    display:flex;
+    width:auto;
+    height:auto;
+    justify-content: space-around;
+
+}
+#h3id{
+    font-weight: bold;
+    font-size: 25px;
+}
+#visit-section{
+    display:flex;
+    width:auto;
+    height:auto;
+    justify-content: space-between;
+    border:50px bold black;
+    
+}
+
+#atributes{
+    color:antiquewhite;
+    display:block;
+    margin-right: 50px;
+    align-items: left;
+text-align: left;
+    font-size: 24px;
+}
+#atributes1{
+    color:antiquewhite;
+    display:block;
+    margin-right: 50px;
+    margin-left:50px;
+    margin-top:30px;
+    margin-bottom:30px;
+    align-items: left;
+text-align: left;
+    font-size: 17px;
+
+
+}
+
+.placesinteharn{
+    color:023047;
+    font-size: 40px;
+    padding-top:0px;
+    text-align: center;
+    margin-top: 0;
+}
+.knowmore{
+    font-size: 40px;
+    color:antiquewhite;
+}
+#input{
+    width:300px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #dfe1e5;
+    margin-bottom: 10px;
+    
+
+}
+#midlle{
+    background-color: 023047;
+    margin:0px;
+    padding:60px 60px 50px 60px;
+}
+#Galery{
+    margin:20px 100px 20px 100px;
+    display:flex;
+    width:600;
+    height:200;
+   
+    justify-content: space-between;
+   
+}
+#Galery2{
+    margin:20px 60px 20px 100px;
+    width:600px;
+    height:200px;
+    display:flex;
+    
+    justify-content: space-between;
+   
+}
+
+#botton{
+    height:50px;
+    width:150px;
+    font-size: 20px;
+}
+#footer-font{
+    font-size:30px;
+    color: antiquewhite;
+}
+
+#span{
+    color: cadetblue;
+
+
+}
