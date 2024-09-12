@@ -170,8 +170,13 @@ text-align: left;
 }
 
 .span1{
-    color: lightskyblue;
+    color: rgb(241, 7, 112);
     
-
-
+}
+#about-tehran{
+    text-decoration: none;
+}
+.hy{
+    text-decoration: none;
+    color: black;
 }
