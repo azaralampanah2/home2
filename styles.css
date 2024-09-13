@@ -76,7 +76,7 @@ body{
     justify-content: space-around;
 
 }
-#h3id{
+.h3id{
     font-weight: bold;
     font-size: 25px;
 }
@@ -89,7 +89,7 @@ body{
     
 }
 
-#atributes{
+.atributes{
     color:antiquewhite;
     display:block;
     margin-right: 50px;
@@ -111,7 +111,7 @@ text-align: left;
 
 }
 
-.placesinteharn{
+#placesinteharn{
     color:023047;
     font-size: 40px;
     padding-top:0px;
@@ -142,7 +142,7 @@ text-align: left;
     margin:0px;
     padding:60px 60px 50px 60px;
 }
-#Galery{
+.Galery{
     margin:20px 100px 20px 100px;
     display:flex;
     width:auto;
@@ -180,7 +180,7 @@ text-align: left;
     text-decoration: none;
     color: black;
 }
-#img1{
+.img1{
     width:400px;
     height:300px;
 }
