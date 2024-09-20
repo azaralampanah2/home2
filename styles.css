@@ -76,6 +76,33 @@ body{
     justify-content: space-around;
 
 }
+#images{
+    width:600px;
+    height:300px;
+}
+#next{
+    width:100px;
+    height:30px;
+    background-color:antiquewhite;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+#previous{
+    width:100px;
+    height:30px;
+    background-color:antiquewhite;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+#back-images{
+    width:800px;
+    height:800px;
+}
 .h3id{
     font-weight: bold;
     font-size: 25px;
@@ -96,6 +123,7 @@ body{
     align-items: left;
 text-align: left;
     font-size: 24px;
+    
 }
 #atributes1{
     color:antiquewhite;
@@ -106,17 +134,27 @@ text-align: left;
     margin-bottom:30px;
     align-items: left;
 text-align: left;
-    font-size: 17px;
+    font-size: 20px;
+    font-weight: lighter;
+    
+
 
 
 }
+#more-picture{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
 
+    
+}
 #placesinteharn{
-    color:023047;
+    color:antiquewhite;
     font-size: 40px;
     padding-top:0px;
     text-align: center;
     margin-top: 0;
+
 }
 .knowmore{
     font-size: 40px;
@@ -134,6 +172,7 @@ text-align: left;
     padding-right: 30px;
     border: 1px solid #dfe1e5;
     margin-bottom: 10px;
+    margin-top: 10px;
     
 
 }
@@ -160,15 +199,20 @@ text-align: left;
 }
 
 #botton{
-    height:50px;
+    height:40px;
     width:150px;
     font-size: 20px;
+    margin-bottom: 5px;
 }
 #footer-font{
     font-size:30px;
-    color: antiquewhite;
+    color:black;
+    margin-bottom: 10px;
 }
-
+#footer{
+    background-color:rgb(207, 205, 226);
+    margin: 30px;
+}
 .span1{
     color: rgb(241, 7, 112);
     
@@ -179,6 +223,12 @@ text-align: left;
 .hy{
     text-decoration: none;
     color: black;
+
+}
+#more-pic{
+    color: antiquewhite;
+    font-size: 25px;
+    font-weight: bold;
 }
 .img1{
     width:400px;
