@@ -41,7 +41,7 @@ body{
  /* #hero:hover{
     background-image: url("images/night.gif");
     }  */
-/* #second-back{
+#second-back{
     background:url("images/tehran5.jpg");
     background-size:auto;
     background-repeat: no-repeat;
@@ -49,7 +49,7 @@ body{
     margin:30px;
     padding:60px 60px 50px 60px;
     
-} */
+}
 .visit-img{
     margin:25px;
     width:290;
@@ -110,15 +110,12 @@ body{
 }
 #visit-section{
     display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    width:auto;
+    height:auto;
     justify-content: space-between;
-    gap:2%;
-    margin-left: 10%;
-    margin-right: 10%;
+    border:50px bold black;
     
 }
-
 
 .atributes{
     color:antiquewhite;
@@ -240,16 +237,53 @@ text-align: left;
     width:400px;
     height:300px;
 }
-@media(max-width:768px){
-    #visit-section {
-        flex-direction: column; /* Stack them vertically */
-        align-items: center; /* Center them */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    /* #head {
+        flex-direction: column;
+        align-items: center;
+    } */
+
+    #hero {
+        height: 200px;
     }
 
     .visits {
-        width: 90%; /* Larger width */
-        max-width: 500px; /* Prevent too much stretching */
-        margin: 10px auto; /* Centered */
+        width: 90%;
+        margin-bottom: 20px;
     }
-    
+
+    #placesinteharn {
+        font-size: 30px;
+    }
+
+    #images {
+        width: 100%;
+    }
+
+    .img1 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #input {
+        width: 80%;
+        padding: 10px;
+    }
+
+    #botton {
+        width: 80%;
+    }
+
+    #more-picture {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer-font {
+        font-size: 18px;
+    }
 }
