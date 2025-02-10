@@ -62,8 +62,8 @@ body{
 }
 .visits{
     
-    width:30%;
-    
+    width:20%;
+    gap:5%;
     background-color: antiquewhite;
     text-align: center;
     border:100px bold black;
@@ -113,7 +113,7 @@ body{
     display:flex;
     width:auto;
     height:auto;
-    justify-content: space-between;
+    justify-content: space-around;
     border:50px bold black;
     
 }
@@ -256,7 +256,7 @@ text-align: left;
         width: 100%;
         margin-bottom: 20px;
         margin-left: 10%;
-        margin-right: 10%;
+        margin-right: 20%;
         
     }
 
