@@ -1,6 +1,6 @@
 body{
     
-   background-color: black;
+   background-color: #023047;
    
   /* background-image: url("Tehran5.jpg");
    background-size: cover; */
@@ -235,52 +235,53 @@ text-align: left;
     width:400px;
     height:300px;
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
     #head {
         flex-direction: column;
         align-items: center;
     }
 
     #hero {
-        height: 250px;
+        height: 200px;
     }
 
     .visits {
-        width: 45%; /* Two visits per row on tablets */
-    }
-
-    #visit-section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        width: 90%;
+        margin-bottom: 20px;
     }
 
     #placesinteharn {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     #images {
         width: 100%;
-        height: auto;
-    }
-
-    .Galery {
-        margin: 10px 50px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    #input {
-        width: 250px;
-    }
-
-    #footer-font {
-        font-size: 25px;
     }
 
     .img1 {
         width: 100%;
-        max-width: 400px;
+        margin-bottom: 10px;
+    }
+
+    #input {
+        width: 80%;
+        padding: 10px;
+    }
+
+    #botton {
+        width: 80%;
+    }
+
+    #more-picture {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer-font {
+        font-size: 18px;
     }
 }
