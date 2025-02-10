@@ -190,7 +190,7 @@ text-align: left;
 
 justify-content: center;
     margin-bottom: 5%;
-    gap:10%;
+    gap:3%;
        margin-top: 5%;
 
 }
@@ -284,6 +284,6 @@ justify-content: center;
 
     }
     .Galery{
-        gap:3%;
+        
     }
 }
