@@ -192,6 +192,7 @@ justify-content: center;
     margin-bottom: 5%;
     gap:3%;
        margin-top: 5%;
+       
 
 }
 #botton{
@@ -227,7 +228,7 @@ justify-content: center;
     font-weight: bold;
 }
 .img1{
-    width:400px;
+    width:20%;
     height:300px;
 }
 @media (max-width: 768px) {
@@ -260,10 +261,7 @@ justify-content: center;
         width: 100%;
     }
 
-    .img1 {
-        width: 100%;
-        margin-bottom: 10px;
-    }
+    
 
     #input {
         width: 80%;
@@ -286,13 +284,13 @@ justify-content: center;
 
     }
     .Galery{
-        width:cover;
+        width:100%;
         margin-left: 10%;
         margin-right: 10%;
         
     }
     #footer{
-        width:cover;
+        width:100%
         margin-left: 10%;
         margin-right: 10%;
        
