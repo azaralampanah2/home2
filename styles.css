@@ -60,24 +60,18 @@ body{
 .visit-img:hover{
     transform:scale(1.2);
 }
-/* .visits{ */
-    /* width:350px;
-    height:500px;
+.visits{
+    
+    
     background-color: antiquewhite;
     text-align: center;
     border:100px bold black;
     border-radius: 10%;
     
+    width:30%;
+    margin-bottom: 2%;
+    height:25vw;
    
-} */
-.visits {
-    background-color: antiquewhite;
-    text-align: center;
-    border-radius: 10%;
-    padding: 20px;
-    width: 30%; /* Takes up 30% of the container */
-    min-width: 280px; /* Prevents it from getting too small */
-    box-sizing: border-box; /* Ensures proper spacing */
 }
 #head{
     display:flex;
@@ -117,22 +111,17 @@ body{
     font-weight: bold;
     font-size: 25px;
 }
-/* #visit-section{
+#visit-section{
     display:flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:2%;
+    margin-left: 10%;
+    margin-right: 10%;
     
-    height:auto;
-    gap:5%;
-    justify-content: center;
-    border:50px bold black;
-    
-} */
-#visit-section {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: center;
-    gap: 20px;
 }
+
 
 .atributes{
     color:antiquewhite;
@@ -254,11 +243,11 @@ text-align: left;
     width:400px;
     height:300px;
 }
-
-    
-    @media (max-width: 768px) {
-        .visits {
-            width: 90%; /* Full width on small screens */
-        }
+@media(max-width:768px){
+    #visit-section {
+        flex-direction: column;
+      }
+      .visits{
+        width:100%;
     }
-
+}
