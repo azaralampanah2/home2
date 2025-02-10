@@ -192,15 +192,6 @@ text-align: left;
     height:auto;
     justify-content: space-between;
 }
-#Galery2{
-    margin:20px 60px 20px 100px;
-    width:600px;
-    height:200px;
-    display:flex;
-    
-    justify-content: space-between;
-   
-}
 
 #botton{
     height:40px;
@@ -289,5 +280,9 @@ text-align: left;
 
     #footer-font {
         font-size: 18px;
+
+    }
+    .Galery{
+        gap:3%;
     }
 }
