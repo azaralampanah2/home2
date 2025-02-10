@@ -242,8 +242,8 @@ text-align: left;
 }
 @media(max-width:768px){
     .visits {
-        width: 100%; /* Each card takes full width */
-        text-align: center;
+        width: 200%; /* Each card takes full width */
+        
     }
     
 }
