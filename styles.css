@@ -241,10 +241,15 @@ text-align: left;
     height:300px;
 }
 @media(max-width:768px){
+    #visit-section {
+        flex-direction: column; /* Stack them vertically */
+        align-items: center; /* Center them */
+    }
+
     .visits {
-        width: 200%; /* Each card takes full width */
-        max-width: 500px;
-        
+        width: 90%; /* Larger width */
+        max-width: 500px; /* Prevent too much stretching */
+        margin: 10px auto; /* Centered */
     }
     
 }
