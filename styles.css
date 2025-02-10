@@ -1,173 +1,155 @@
-body{
-    
-   background-color: #023047;
-   
-  /* background-image: url("Tehran5.jpg");
-   background-size: cover; */
-   text-align: center;
-
-   
+body {
+    background-color: #023047;
+    text-align: center;
 }
-#algerian{
+
+#algerian {
     font-family: algerian;
-    color:white;
+    color: white;
     font-weight: 250px;
     font-size: 40px;
-    
-    
 }
 
-
- #back{
-     /* background-image: url("Tehran2.jpg");
+#back {
+    /* background-image: url("Tehran2.jpg"); 
     background-color: 023047; 
     padding:200px 60px 50px 60px;
     margin:0px 0px 0 0px; */ 
-    
-    
-} 
-#hero{
-    background:url("images/Tehran.jpg");
-    height:5px;
+}
+
+#hero {
+    background: url("images/Tehran.jpg");
+    height: 5px;
     width: 800px;
     background-position: center;
     background-repeat: no-repeat;
-    padding:300px 0 0 300px;
-    
-    
-    
-    
-    }
- /* #hero:hover{
-    background-image: url("images/night.gif");
-    }  */
-#second-back{
-    background:url("images/tehran5.jpg");
-    background-size:auto;
+    padding: 300px 0 0 300px;
+}
+
+#second-back {
+    background: url("images/tehran5.jpg");
+    background-size: auto;
     background-repeat: no-repeat;
     background-color: 023047;
-    margin:30px;
-    padding:60px 60px 50px 60px;
-    
+    margin: 30px;
+    padding: 60px 60px 50px 60px;
 }
-.visit-img{
-    margin:25px;
-    width:290;
-    height:230;
+
+.visit-img {
+    margin: 25px;
+    width: 290;
+    height: 230;
     border-radius: 10%;
-    
 }
-.visit-img:hover{
-    transform:scale(1.2);
+
+.visit-img:hover {
+    transform: scale(1.2);
 }
-.visits{
-    
-    width:20%;
-    gap:5%;
+
+.visits {
+    width: 20%;
+    gap: 5%;
     background-color: antiquewhite;
     text-align: center;
-    border:100px bold black;
+    border: 100px bold black;
     border-radius: 10%;
-    
-   
 }
-#head{
-    display:flex;
-    width:auto;
-    height:auto;
+
+#head {
+    display: flex;
+    width: auto;
+    height: auto;
     justify-content: space-around;
+}
 
+#images {
+    width: 600px;
+    height: 300px;
 }
-#images{
-    width:600px;
-    height:300px;
-}
-#next{
-    width:100px;
-    height:30px;
-    background-color:antiquewhite;
-    color: black;
-    font-weight: bold;
-    font-size: 16px;
-    
-}
-#previous{
-    width:100px;
-    height:30px;
-    background-color:antiquewhite;
+
+#next {
+    width: 100px;
+    height: 30px;
+    background-color: antiquewhite;
     color: black;
     font-weight: bold;
     font-size: 16px;
 }
 
-
-#back-images{
-    width:800px;
-    height:800px;
+#previous {
+    width: 100px;
+    height: 30px;
+    background-color: antiquewhite;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
 }
-.h3id{
+
+#back-images {
+    width: 800px;
+    height: 800px;
+}
+
+.h3id {
     font-weight: bold;
     font-size: 25px;
 }
-#visit-section{
-    display:flex;
-    width:auto;
-    height:auto;
+
+#visit-section {
+    display: flex;
+    width: auto;
+    height: auto;
     justify-content: space-around;
-    border:50px bold black;
-    
+    border: 50px bold black;
 }
 
-.atributes{
-    color:antiquewhite;
-    display:block;
+.atributes {
+    color: antiquewhite;
+    display: block;
     margin-right: 50px;
     align-items: left;
-text-align: left;
+    text-align: left;
     font-size: 24px;
-    
 }
-#atributes1{
-    color:antiquewhite;
-    display:block;
+
+#atributes1 {
+    color: antiquewhite;
+    display: block;
     margin-right: 50px;
-    margin-left:50px;
-    margin-top:30px;
-    margin-bottom:30px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     align-items: left;
-text-align: left;
+    text-align: left;
     font-size: 20px;
     font-weight: lighter;
-    
-
-
-
 }
-#more-picture{
-    display:flex;
+
+#more-picture {
+    display: flex;
     justify-content: space-around;
     align-items: center;
-
-    
 }
-#placesinteharn{
-    color:antiquewhite;
+
+#placesinteharn {
+    color: antiquewhite;
     font-size: 40px;
-    padding-top:0px;
+    padding-top: 0px;
     text-align: center;
     margin-top: 0;
+}
 
-}
-.knowmore{
+.knowmore {
     font-size: 40px;
-    color:antiquewhite;
+    color: antiquewhite;
 }
-#input{
-    width:300px;
-    display:block;
+
+#input {
+    width: 300px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    line-height:20px;
+    line-height: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
@@ -175,13 +157,12 @@ text-align: left;
     border: 1px solid #dfe1e5;
     margin-bottom: 10px;
     margin-top: 10px;
-    
-
 }
-#midlle{
+
+#midlle {
     background-color: 023047;
-    margin:0px;
-    padding:60px 60px 50px 60px;
+    margin: 0px;
+    padding: 60px 60px 50px 60px;
 }
 
 .Galery {
@@ -196,51 +177,51 @@ text-align: left;
     width: 100%; /* Make sure the gallery container takes up full width */
 }
 
-#botton{
-    height:40px;
-    width:150px;
+#botton {
+    height: 40px;
+    width: 150px;
     font-size: 20px;
     margin-bottom: 5px;
 }
-#footer-font{
-    font-size:30px;
-    color:black;
+
+#footer-font {
+    font-size: 30px;
+    color: black;
     margin-bottom: 10px;
 }
-#footer{
-    background-color:rgb(207, 205, 226);
-    
+
+#footer {
+    background-color: rgb(207, 205, 226);
 }
-.span1{
+
+.span1 {
     color: rgb(241, 7, 112);
-    
 }
-#about-tehran{
+
+#about-tehran {
     text-decoration: none;
 }
-.hy{
+
+.hy {
     text-decoration: none;
     color: black;
-
 }
-#more-pic{
+
+#more-pic {
     color: antiquewhite;
     font-size: 25px;
     font-weight: bold;
 }
-.img1{
-    width:400px;
-    height:300px;
+
+.img1 {
+    width: 400px;
+    height: 300px;
 }
+
 @media (max-width: 768px) {
     body {
         font-size: 14px;
     }
-
-    /* #head {
-        flex-direction: column;
-        align-items: center;
-    } */
 
     #hero {
         height: 200px;
@@ -251,7 +232,6 @@ text-align: left;
         margin-bottom: 20px;
         margin-left: 10%;
         margin-right: 10%;
-        
     }
 
     #placesinteharn {
@@ -263,8 +243,9 @@ text-align: left;
     }
 
     .img1 {
-        width: 100%;
-        margin-bottom: 10px;
+        width: 80%; /* Make images smaller to fit well on small screens */
+        height: auto; /* Maintain aspect ratio */
+        object-fit: cover; /* Ensure images don't stretch */
     }
 
     #input {
@@ -283,16 +264,29 @@ text-align: left;
 
     #footer-font {
         font-size: 18px;
-
     }
-    .Galery{
-        gap:2%;
-        justify-content: center; /* Make sure images are centered */
 
+    .Galery {
+        gap: 2%; /* Reduce the gap between images */
+        justify-content: center; /* Ensure images are centered */
     }
+
     .Galery .img1 {
         width: 80%; /* Make images smaller to fit well on small screens */
         height: auto; /* Maintain aspect ratio */
         object-fit: cover;
+    }
+}
+
+@media (max-width: 480px) {
+    .Galery {
+        gap: 1%; /* Further reduce the gap */
+        justify-content: center; /* Center the images horizontally */
+    }
+
+    .img1 {
+        width: 100%; /* Make images full width on very small screens */
+        height: auto; /* Maintain aspect ratio */
+        object-fit: cover; /* Ensure images don't stretch */
     }
 }
