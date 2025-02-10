@@ -185,20 +185,21 @@ text-align: left;
 }
 
 .Galery {
+    width:100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-bottom: 5%;
     margin-top: 5%;
     gap: 3%;
-    flex-wrap: wrap;  /* Ensures that images wrap to the next line on smaller screens */
+    flex-wrap: wrap;  /* Ensures images wrap to the next line on smaller screens */
     padding: 0 10px;  /* Optional: Adds spacing around the container */
 }
 
 .img1 {
-    width: 20%;
-    height: auto; /* This will keep the aspect ratio intact */
-    max-width: 100%; /* Makes the image responsive and adjusts according to container */
+    width: 20%; /* Default width for larger screens */
+    height: auto; /* Keeps aspect ratio intact */
+    max-width: 100%; /* Makes the image responsive */
     object-fit: cover; /* Ensures images cover the space without stretching */
 }
 #botton{
@@ -295,7 +296,7 @@ text-align: left;
 
     }
     .img1 {
-        width: 45%; /* On smaller screens, make images take up more space */
+        width: 300px; /* On smaller screens, make images take up more space */
         height: auto; /* Adjust height to maintain aspect ratio */
     }
 }
