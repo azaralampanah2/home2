@@ -61,16 +61,13 @@ body{
     transform:scale(1.2);
 }
 .visits{
-    
-    
+    width:350px;
+    height:500px;
     background-color: antiquewhite;
     text-align: center;
     border:100px bold black;
     border-radius: 10%;
     
-    width:30%;
-    margin-bottom: 2%;
-    height:25vw;
    
 }
 #head{
@@ -244,10 +241,5 @@ text-align: left;
     height:300px;
 }
 @media(max-width:768px){
-    #visit-section {
-        flex-direction: column;
-      }
-      .visits{
-        width:100%;
-    }
+    
 }
