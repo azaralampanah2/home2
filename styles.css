@@ -276,7 +276,7 @@ justify-content: center;
 
     #more-picture {
         
-        width:100%;
+        width:cover;
         margin-left: 10%;
         margin-right: 10%;
     }
@@ -286,9 +286,16 @@ justify-content: center;
 
     }
     .Galery{
-        width:100%;
+        width:cover;
         margin-left: 10%;
         margin-right: 10%;
         
+    }
+    #footer{
+        width:cover;
+        margin-left: 10%;
+        margin-right: 10%;
+       
+
     }
 }
