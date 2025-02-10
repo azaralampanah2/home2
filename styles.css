@@ -184,16 +184,22 @@ text-align: left;
     padding:60px 60px 50px 60px;
 }
 
-.Galery{
+.Galery {
     display: flex;
     flex-direction: row;
-
-justify-content: center;
+    justify-content: center;
     margin-bottom: 5%;
-    gap:3%;
-       margin-top: 5%;
-       
+    margin-top: 5%;
+    gap: 3%;
+    flex-wrap: wrap;  /* Ensures that images wrap to the next line on smaller screens */
+    padding: 0 10px;  /* Optional: Adds spacing around the container */
+}
 
+.img1 {
+    width: 20%;
+    height: auto; /* This will keep the aspect ratio intact */
+    max-width: 100%; /* Makes the image responsive and adjusts according to container */
+    object-fit: cover; /* Ensures images cover the space without stretching */
 }
 #botton{
     height:40px;
@@ -227,10 +233,7 @@ justify-content: center;
     font-size: 25px;
     font-weight: bold;
 }
-.img1{
-    width:20%;
-    height:300px;
-}
+
 @media (max-width: 768px) {
     body {
         font-size: 14px;
@@ -291,7 +294,8 @@ justify-content: center;
        
 
     }
-    img1{
-        width:300px;
+    .img1 {
+        width: 45%; /* On smaller screens, make images take up more space */
+        height: auto; /* Adjust height to maintain aspect ratio */
     }
 }
