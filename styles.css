@@ -287,11 +287,12 @@ text-align: left;
     }
     .Galery{
         gap:2%;
-        width:100%
+        justify-content: center; /* Make sure images are centered */
+
     }
     .Galery .img1 {
-        width: 100%; /* Make images take up full width on small screens */
+        width: 80%; /* Make images smaller to fit well on small screens */
         height: auto; /* Maintain aspect ratio */
-        object-fit: cover; /* Ensure images don't stretch */
+        object-fit: cover;
     }
 }
