@@ -110,9 +110,11 @@ body{
 }
 #visit-section{
     display:flex;
-    width:auto;
+    flex-direction: row;
+    
     height:auto;
-    justify-content: space-between;
+    gap:5%;
+    justify-content: center;
     border:50px bold black;
     
 }
@@ -236,54 +238,4 @@ text-align: left;
 .img1{
     width:400px;
     height:300px;
-}
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-
-    /* #head {
-        flex-direction: column;
-        align-items: center;
-    } */
-
-    #hero {
-        height: 200px;
-    }
-
-    .visits {
-        width: 90%;
-        margin-bottom: 20px;
-    }
-
-    #placesinteharn {
-        font-size: 30px;
-    }
-
-    #images {
-        width: 100%;
-    }
-
-    .img1 {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    #input {
-        width: 80%;
-        padding: 10px;
-    }
-
-    #botton {
-        width: 80%;
-    }
-
-    #more-picture {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #footer-font {
-        font-size: 18px;
-    }
 }
