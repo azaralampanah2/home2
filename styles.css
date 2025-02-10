@@ -43,7 +43,7 @@ body{
     }  */
 #second-back{
     background:url("images/tehran5.jpg");
-    background-size:cover;
+    background-size:auto;
     background-repeat: no-repeat;
     background-color: 023047;
     margin:30px;
@@ -183,8 +183,10 @@ text-align: left;
     padding:60px 60px 50px 60px;
 }
 .Galery{
-    margin:20px 100px 20px 100px;
-    display:flex;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+        display:flex;
     width:auto;
     height:auto;
     justify-content: space-between;
@@ -235,15 +237,15 @@ text-align: left;
     width:400px;
     height:300px;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     body {
         font-size: 14px;
     }
 
-    #head {
+    /* #head {
         flex-direction: column;
         align-items: center;
-    }
+    } */
 
     #hero {
         height: 200px;
