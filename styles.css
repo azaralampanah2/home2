@@ -234,3 +234,66 @@ text-align: left;
     width:400px;
     height:300px;
 }
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    #head {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hero {
+        height: 200px;
+    }
+
+    .visits {
+        width: 90%; /* Full width for each visit on mobile */
+        margin-bottom: 20px;
+    }
+
+    #placesinteharn {
+        font-size: 30px;
+    }
+
+    .Galery {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img1 {
+        width: 100%;
+        max-width: 350px;
+        margin-bottom: 10px;
+    }
+
+    #input {
+        width: 90%;
+    }
+
+    #footer-font {
+        font-size: 20px;
+    }
+
+    #footer {
+        padding: 15px;
+    }
+
+    #more-picture {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #next,
+    #previous {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    #more-pic {
+        font-size: 20px;
+    }
+}
