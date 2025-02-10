@@ -197,7 +197,9 @@ text-align: left;
     padding: 0 10px;  /* Optional: Adds spacing around the container */
 }
 
-
+.img1{
+    margin-bottom: 3%;
+}
 #botton{
     height:40px;
     width:150px;
