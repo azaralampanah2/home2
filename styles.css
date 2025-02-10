@@ -286,5 +286,7 @@ text-align: left;
     .Galery{
     width:1000px;
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
     }
 }
